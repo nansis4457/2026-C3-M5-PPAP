@@ -169,11 +169,11 @@ struct Stage3View: View { // 맥스 바보
     private var topHUD: some View {
         HStack{
             // 좌측 상단 타이틀
-            Image("Stage3_Title")
+            /*Image("Stage3_Title")
                 .resizable()
                 .scaledToFit()
                 .frame(height: 60)
-
+            */
             Spacer()
 
             //우측 상단 타이머
@@ -183,7 +183,7 @@ struct Stage3View: View { // 맥스 바보
                          warningImage: "Stage3Timer")
         }
         .padding(.horizontal, 30)
-        .padding(.top, 20)
+        .padding(.top, 40)
     }
 
     // 씬이 사라질때의 색 지정 (페이드 막)
